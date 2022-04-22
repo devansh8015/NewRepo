@@ -11,7 +11,6 @@ namespace Users.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            
             return View();
         }
         public ActionResult UserListData(int deletedFlag = 1)
